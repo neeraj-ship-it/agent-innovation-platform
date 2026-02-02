@@ -201,7 +201,8 @@ def main():
 
     agent = RealGeminiAgent(
         name=name,
-        capabilities=["ai", "gemini", "innovation", "analysis", "creativity"]
+        capabilities=["ai", "gemini", "innovation", "analysis", "creativity"],
+        base_url="https://web-production-d8468.up.railway.app"
     )
 
     try:

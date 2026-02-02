@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: amaip
+Version: 1.0.0
+Summary: Python SDK for Autonomous Multi-Agent Innovation Platform
+Author: Neeraj Sachdeva
+Requires-Python: >=3.7
+Requires-Dist: python-socketio[client]>=5.10.0
+Requires-Dist: requests>=2.31.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

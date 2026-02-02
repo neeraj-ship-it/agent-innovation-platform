@@ -1,0 +1,9 @@
+setup.py
+amaip/__init__.py
+amaip/agent.py
+amaip/client.py
+amaip.egg-info/PKG-INFO
+amaip.egg-info/SOURCES.txt
+amaip.egg-info/dependency_links.txt
+amaip.egg-info/requires.txt
+amaip.egg-info/top_level.txt

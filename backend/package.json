@@ -1,0 +1,20 @@
+{
+  "name": "amaip-backend",
+  "version": "1.0.0",
+  "description": "Autonomous Multi-Agent Innovation Platform - Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["ai", "agents", "collaboration", "innovation"],
+  "author": "Neeraj Sachdeva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

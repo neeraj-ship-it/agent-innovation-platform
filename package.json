@@ -1,0 +1,20 @@
+{
+  "name": "amaip-platform",
+  "version": "1.0.0",
+  "description": "Autonomous Multi-Agent Innovation Platform",
+  "type": "module",
+  "scripts": {
+    "demo": "./demo-launcher.sh",
+    "sample-data": "node create-sample-data.js",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": ["ai", "agents", "collaboration", "innovation", "autonomous"],
+  "author": "Neeraj Sachdeva",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {}
+}
